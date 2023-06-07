@@ -1,6 +1,7 @@
 package br.com.projeto.jucaflix.model;
 
 import br.com.projeto.jucaflix.model.dto.Genre;
+import br.com.projeto.jucaflix.model.dto.Spoiler;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
@@ -38,7 +39,7 @@ public class Movie {
     private double rating;
 
     @ApiModelProperty(value = "Spoilers do filme")
-    private List<String> movieSpoilers;
+    private List<Spoiler> spoilers;
 
     @ApiModelProperty(value = "Data de criação do filme")
     private LocalDateTime created;
@@ -48,5 +49,6 @@ public class Movie {
 
     @ApiModelProperty(value = "URL do filme")
     private String url;
+
 }
 

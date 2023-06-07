@@ -11,5 +11,6 @@ import java.util.Optional;
 public interface MovieRepository extends MongoRepository<Movie, String> {
     Optional<Movie> findByTitleLike(String title);
     List<Movie> findAllByRatingGreaterThanEqual(double rating);
+    List<Movie> findAllByYearEquals(Integer year);
     List<Movie> findAllByYearGreaterThanEqual(Integer year);
 }

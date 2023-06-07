@@ -1,10 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3eb710d-6232-41a6-91ac-ff9d9ce12111" name="Changes" comment="" />
+    <list default="true" id="c3eb710d-6232-41a6-91ac-ff9d9ce12111" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/controller/MovieStatsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/mapper/MovieStatsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/model/MovieStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/model/dto/MovieStatsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/repository/MovieStatsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/service/MovieStatsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/projeto/jucaflix/controller/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/projeto/jucaflix/controller/MovieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/projeto/jucaflix/controller/request/MovieRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/projeto/jucaflix/controller/request/MovieRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/projeto/jucaflix/controller/response/MovieResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/projeto/jucaflix/controller/response/MovieResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/projeto/jucaflix/mapper/MovieMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/projeto/jucaflix/mapper/MovieMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/projeto/jucaflix/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/projeto/jucaflix/model/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/projeto/jucaflix/model/dto/Genre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/projeto/jucaflix/model/dto/Genre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/projeto/jucaflix/repository/MovieRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/projeto/jucaflix/repository/MovieRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/projeto/jucaflix/service/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/projeto/jucaflix/service/MovieService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MovieController.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MovieController.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MovieService.class.uniqueId1" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MovieService.class.uniqueId1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/controller/request/MovieRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/controller/request/MovieRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/controller/response/MovieResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/controller/response/MovieResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/mapper/MovieMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/mapper/MovieMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/model/dto/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/model/dto/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/repository/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/repository/MovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/service/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,8 +78,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -73,6 +112,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;c902e16e21d63885250843725af6b4a9&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -113,6 +153,14 @@
       <workItem from="1685533361993" duration="3475000" />
       <workItem from="1685686486780" duration="1897000" />
       <workItem from="1685706070777" duration="2527000" />
+      <workItem from="1685710316856" duration="5987000" />
+      <workItem from="1685833858550" duration="6581000" />
+      <workItem from="1685891436910" duration="609000" />
+      <workItem from="1685909590833" duration="12943000" />
+      <workItem from="1685930567207" duration="196000" />
+      <workItem from="1685966635984" duration="54000" />
+      <workItem from="1686012203808" duration="12672000" />
+      <workItem from="1686132739852" duration="3975000" />
     </task>
     <servers />
   </component>
@@ -129,5 +177,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/projeto/jucaflix/service/MovieService.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

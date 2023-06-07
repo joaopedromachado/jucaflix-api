@@ -1,6 +1,7 @@
 package br.com.projeto.jucaflix.controller.response;
 
 import br.com.projeto.jucaflix.model.dto.Genre;
+import br.com.projeto.jucaflix.model.dto.Spoiler;
 import lombok.Data;
 
 import java.time.LocalDateTime;
@@ -15,7 +16,7 @@ public class MovieResponse {
     private Genre genre;
     private Integer year;
     private double rating;
-    private List<String> movieSpoilers;
+    private List<Spoiler> spoilers;
     private LocalDateTime created;
     private LocalDateTime edited;
     private String url;

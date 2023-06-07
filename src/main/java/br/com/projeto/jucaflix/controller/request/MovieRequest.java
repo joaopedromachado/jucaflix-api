@@ -1,6 +1,7 @@
 package br.com.projeto.jucaflix.controller.request;
 
 import br.com.projeto.jucaflix.model.dto.Genre;
+import br.com.projeto.jucaflix.model.dto.Spoiler;
 import com.fasterxml.jackson.annotation.JsonAlias;
 
 import javax.validation.constraints.NotBlank;
@@ -20,16 +21,14 @@ public class MovieRequest {
     private Integer year;
     @NotNull
     private double rating;
-    @NotBlank(message = "O valor deste atributo não pode ficar em branco.")
-    @JsonAlias("movie_spoilers")
-    private List<String> movieSpoilers;
-    public MovieRequest(String title, String director, Genre genre, Integer year, double rating, List<String> movieSpoilers) {
+    private List<Spoiler> spoilers;
+
+    public MovieRequest(String title, String director, Genre genre, Integer year, double rating) {
         this.title = title;
         this.director = director;
         this.genre = genre;
         this.year = year;
         this.rating = rating;
-        this.movieSpoilers = movieSpoilers;
     }
     public MovieRequest(){
 
@@ -75,12 +74,8 @@ public class MovieRequest {
         this.rating = rating;
     }
 
-    public List<String> getMovieSpoilers() {
-        return movieSpoilers;
-    }
-
-    public void setMovieSpoilers(List<String> movieSpoilers) {
-        this.movieSpoilers = movieSpoilers;
+    public List<Spoiler> getSpoilers() {
+        return spoilers;
     }
 
 }
